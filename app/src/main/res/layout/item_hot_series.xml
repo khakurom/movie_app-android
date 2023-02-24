@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:id="@+id/layout_itemFilm"
+    android:layout_margin="20dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="150dp"
+            app:riv_corner_radius="15dp"
+            android:id="@+id/img_film"
+            android:layout_toEndOf="@id/img_number"
+            android:layout_height="150dp"
+            android:src="@drawable/img_home_1"/>
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="60dp"
+            android:layout_height="77dp"
+            android:id="@+id/img_number"
+            app:riv_corner_radius="28dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/number1"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doraemon"
+        android:id="@+id/tv_name_film"
+        android:textStyle="bold"
+        android:layout_marginLeft="65dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

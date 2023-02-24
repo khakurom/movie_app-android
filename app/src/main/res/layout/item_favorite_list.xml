@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:padding="15dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List 1"
+        android:id="@+id/tv_nameList"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:text="Add"
+        android:id="@+id/bt_add"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/custom_button_edit_pen"/>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CartoonMovieApp</string>
+    <string name="privacy1">This Privacy Statement explains our practices, including your choices, regarding the collection, use, and disclosure of certain information, including your personal information in connection with the Cartoon movie service.</string>
+    <string name="privacy2">If you have general questions about your account or how to contact customer service for assistance, please visit our online help center at help.netflix.com. For questions specifically about this Privacy Statement, or our use of your personal information, cookies or similar technologies, please contact our Data Protection Officer/Privacy Office by email at privacy@cartoon.com.</string>
+    <string name="privacy3">Our content recommendations system strives to predict what you will be in the mood to watch when you log in. However, our content recommendations system does not infer or attach socio-demographic information (like gender or race) to you. We have a Help article that explains how our content recommendations system works - spoilers: the biggest driver of these recommendations is what you actually choose to watch through our service. You can read the article at cartoon.com/recommendations.</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="forget_password">"You couldn't remember password? Don't worry! Just need verify through email or phone number that you registered"</string>
+
+</resources>

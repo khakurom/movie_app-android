@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:id="@+id/layout_itemFilm"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="20dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_all_film"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="10dp"
+            android:src="@drawable/img_home_1" />
+
+        <TextView
+            android:id="@+id/tv_name_all_film"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doraemon"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

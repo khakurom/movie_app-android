@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activity.IntroActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/anime_logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="License"
+            android:textStyle="bold"
+            android:id="@+id/tv_privacy"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:id="@+id/tv_sign_up"
+            android:layout_toStartOf="@id/tv_privacy"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_above="@id/id_CircleIndicator"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/id_viewPager"/>
+    <me.relex.circleindicator.CircleIndicator3
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_above="@id/bt_sign_in"
+        app:ci_drawable="@drawable/circle_image"
+        android:id="@+id/id_CircleIndicator"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="sign in"
+        android:id="@+id/bt_sign_in"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/orange"/>
+
+</RelativeLayout>
